@@ -1,0 +1,14 @@
+{
+  "name": "esp32-nzd-bank-backend",
+  "version": "1.0.0",
+  "description": "NZD payment backend for ESP32-S3 digital FX transfer demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  }
+}
